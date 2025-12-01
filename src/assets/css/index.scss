@@ -1,0 +1,179 @@
+/* TITLES */
+
+.subtitle {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 150%;
+
+	color: #1e212c;
+	text-align: center;
+
+	margin-top: 44px;
+}
+
+.title {
+	font-size: 46px;
+	letter-spacing: 0%;
+	line-height: 130%;
+
+	color: #1e212c;
+	text-align: center;
+
+	margin-top: 8px;
+}
+
+/* PANEL */
+
+.panel {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 100px;
+
+	margin-top: 85px;
+
+	&__categories {
+		display: flex;
+		gap: 12px;
+	}
+
+	&__category-btn {
+		display: flex;
+		gap: 4px;
+
+		padding: 10px 20px;
+
+		color: #9a9ca5;
+		font-size: 16px;
+		line-height: 160%;
+		letter-spacing: 0%;
+
+		border-radius: 4px;
+
+		&.active {
+			color: #ff3f3a;
+			border: 1px solid #ff3f3a;
+		}
+	}
+
+	&__category-count {
+		color: #9a9ca5;
+		font-size: 10px;
+		line-height: 150%;
+		letter-spacing: 0%;
+
+		&.active {
+			color: #ff3f3a;
+		}
+	}
+
+	&__search {
+		display: flex;
+		justify-content: space-between;
+		padding: 12px 16px;
+
+		border-radius: 4px;
+		border: 1px solid #d7dadd;
+
+		width: 315px;
+
+		&-input {
+			width: 100%;
+			&::placeholder {
+				color: #9a9ca5;
+				font-size: 14px;
+				line-height: 150%;
+				letter-spacing: 0%;
+			}
+		}
+	}
+}
+
+/* TEACHERS LIST */
+
+.teachers-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+
+.teachers {
+	&__card {
+		background-color: white;
+
+		border-radius: 4px;
+		border: 1px solid #e5e8ed;
+
+		max-width: 390px;
+
+		&-content {
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			gap: 20px;
+
+			padding: 24px;
+		}
+
+		&-badge {
+			font-size: 14px;
+			line-height: 150%;
+			letter-spacing: 0%;
+
+			color: white;
+			background-color: #03cea4;
+
+			padding: 1px 8px;
+			border-radius: 4px;
+		}
+
+		&-title {
+			color: #1e212c;
+
+			font-size: 20px;
+			line-height: 150%;
+			letter-spacing: 0%;
+		}
+
+		&-footer {
+			display: flex;
+			align-items: center;
+			gap: 16px;
+		}
+
+		&-price {
+			font-size: 18px;
+			line-height: 150%;
+			letter-spacing: 0%;
+
+			color: #ff4242;
+		}
+
+		&-name {
+			font-size: 18px;
+			line-height: 150%;
+			letter-spacing: 0%;
+
+			color: #787a80;
+
+			position: relative;
+
+			&::before {
+				content: '';
+
+				position: absolute;
+				height: 16px;
+				width: 1px;
+
+				background-color: #787a80;
+				top: 5px;
+				left: -8px;
+
+				border-radius: 4px;
+			}
+		}
+	}
+}

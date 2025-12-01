@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="/src/assets/css/global.scss" />
+		<link rel="stylesheet" href="/src/assets/css/font.scss" />
+		<link rel="stylesheet" href="/src/assets/css/index.scss" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>recruting-app</title>
+	</head>
+	<body>
+		<div id="app">
+			<div id="container">
+				<h2 class="subtitle lato-bold">Enjoy your studying!</h2>
+				<h1 class="title lato-black">Our online courses</h1>
+
+				<div class="panel">
+					<div class="panel__categories">
+						<button class="panel__category-btn active lato-bold">
+							All
+							<span class="panel__category-count active lato-black">17</span>
+						</button>
+						<button class="panel__category-btn lato-bold">
+							Marketing
+							<span class="panel__category-count lato-black">4</span>
+						</button>
+						<button class="panel__category-btn lato-bold">
+							Management
+							<span class="panel__category-count lato-black">3</span>
+						</button>
+						<button class="panel__category-btn lato-bold">
+							HR & Recruting
+							<span class="panel__category-count lato-black">5</span>
+						</button>
+						<button class="panel__category-btn lato-bold">
+							Design
+							<span class="panel__category-count lato-black">2</span>
+						</button>
+						<button class="panel__category-btn lato-bold">
+							Development
+							<span class="panel__category-count lato-black">3</span>
+						</button>
+					</div>
+					<div class="panel__search">
+						<input
+							placeholder="Search course..."
+							class="panel__search-input lato-regular"
+							type="search"
+						/>
+						<img
+							src="/public/search.svg"
+							alt="Поисковая лупа"
+							class="panel__search-icon"
+						/>
+					</div>
+				</div>
+
+				<div class="teachers-list">
+					<div class="teachers__card">
+						<img src="/public/teachers/card/image.png" alt="" />
+						<div class="teachers__card-content">
+							<span class="teachers__card-badge lato-regular">Marketing</span>
+							<h3 class="teachers__card-title lato-bold">
+								The Ultimate Google Ads Training Course
+							</h3>
+							<div class="teachers__card-footer">
+								<p class="teachers__card-price lato-bold">$100</p>
+								<p class="teachers__card-name lato-regular">by Jerome Bell</p>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__card">
+						<img src="/public/teachers/card/image.png" alt="" />
+						<div class="teachers__card-content">
+							<span class="teachers__card-badge lato-regular">Marketing</span>
+							<h3 class="teachers__card-title lato-bold">
+								The Ultimate Google Ads Training Course
+							</h3>
+							<div class="teachers__card-footer">
+								<p class="teachers__card-price lato-bold">$100</p>
+								<p class="teachers__card-name lato-regular">by Jerome Bell</p>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__card">
+						<img src="/public/teachers/card/image.png" alt="" />
+						<div class="teachers__card-content">
+							<span class="teachers__card-badge lato-regular">Marketing</span>
+							<h3 class="teachers__card-title lato-bold">
+								The Ultimate Google Ads Training Course
+							</h3>
+							<div class="teachers__card-footer">
+								<p class="teachers__card-price lato-bold">$100</p>
+								<p class="teachers__card-name lato-regular">by Jerome Bell</p>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__card">
+						<img src="/public/teachers/card/image.png" alt="" />
+						<div class="teachers__card-content">
+							<span class="teachers__card-badge lato-regular">Marketing</span>
+							<h3 class="teachers__card-title lato-bold">
+								The Ultimate Google Ads Training Course
+							</h3>
+							<div class="teachers__card-footer">
+								<p class="teachers__card-price lato-bold">$100</p>
+								<p class="teachers__card-name lato-regular">by Jerome Bell</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>
