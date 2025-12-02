@@ -1,0 +1,44 @@
+{
+	"courses": [
+		{
+			"id": 1,
+			"image": "courses/card/image-1.png",
+			"title": "The Ultimate Google Ads Training Course",
+			"author": "Jerome Bell",
+			"category": "Marketing",
+			"price": 100
+		},
+		{
+			"id": 2,
+			"image": "courses/card/image-2.png",
+			"title": "Product Management Fundamentals",
+			"author": "Marvin McKinney",
+			"category": "Management",
+			"price": 480
+		},
+		{
+			"id": 3,
+			"image": "courses/card/image-3.png",
+			"title": "HR  Management and Analytics",
+			"author": "Leslie Alexander Li",
+			"category": "HR & Recruting",
+			"price": 200
+		},
+		{
+			"id": 4,
+			"image": "courses/card/image-4.png",
+			"title": "Brand Management & PR Communications",
+			"author": "Kristin Watson",
+			"category": "Marketing",
+			"price": 530
+		},
+		{
+			"id": 5,
+			"image": "courses/card/image-5.png",
+			"title": "Graphic Design Basic",
+			"author": "Guy Hawkins",
+			"category": "Design",
+			"price": 500
+		}
+	]
+}
