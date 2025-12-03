@@ -40,5 +40,32 @@
 			"category": "Design",
 			"price": 500
 		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"name": "Marketing",
+			"count": 2
+		},
+		{
+			"id": 2,
+			"name": "Management",
+			"count": 1
+		},
+		{
+			"id": 3,
+			"name": "HR & Recruting",
+			"count": 1
+		},
+		{
+			"id": 4,
+			"name": "Design",
+			"count": 1
+		},
+		{
+			"id": 5,
+			"name": "Development",
+			"count": 0
+		}
 	]
 }
