@@ -6,9 +6,9 @@
 
 ## Используемые технологии
 
-- **pnpm** 
-- **HTML5**  
-- **CSS3 / SCSS**  
+- **pnpm**
+- **HTML5**
+- **CSS3 / SCSS**
 - **JavaScript (ES6+)**
 
 ---
@@ -23,7 +23,7 @@
 
 ```bash
 # 1. Клонирование репозитория
-git clone <URL_вашего_репозитория>
+git clone https://github.com/isHardCoded/recruting-app.git
 
 # 2. Переход в директорию проекта
 cd recruting-app
@@ -36,3 +36,4 @@ pnpm run dev
 
 # 5. Запуск бэкенда
 pnpm run server
+```
