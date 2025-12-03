@@ -72,17 +72,16 @@ class App {
 	}
 
 	showLoading() {
-		this.coursesContainer.innerHTML = '<div class="loading">Загрузка...</div>'
-		this.categoriesContainer.innerHTML =
-			'<div class="loading">Загрузка...</div>'
+		this.coursesContainer.innerHTML = '<div class="loading">Loading...</div>'
+		this.categoriesContainer.innerHTML = '<div class="loading">Loading...</div>'
 	}
 
 	handleError(error) {
 		console.error('Application error:', error)
 		this.coursesContainer.innerHTML = `
       <div class="error-state">
-        <p>Не удалось загрузить данные. Пожалуйста, попробуйте позже.</p>
-        <button onclick="location.reload()">Попробовать снова</button>
+        <p>Unknown error. Try later!</p>
+        <button onclick="location.reload()">Try again</button>
       </div>
     `
 	}
